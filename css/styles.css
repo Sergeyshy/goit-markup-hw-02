@@ -1,0 +1,181 @@
+:root {
+	--title-text-color: #212121;
+	--primary-text-color: #757575;
+	--secondary-text-color:#ffffff;
+	--link-text-color: rgba(255, 255,255,0.6);
+	--button-text-color: #000000;
+
+	--border-color: #eeeeee;
+
+	--hover-focus-color: #2196f3;
+
+--primary-font-size-color: #ffffff
+--primary-background-color: #ffffff;
+--secondary-background-color: #f5f4fa;
+--footer-hero-background-color: #2f303a;
+--button--background-color: #f5f4fa;
+--active-button-background-color: #2196f3;
+}
+
+body { background-color: #fff;
+	color: rgba(117,
+		117,
+		117,
+		1);
+
+		font-family: Roboto, sans-serif;
+}
+
+.logo {
+	color: #2196f3;
+	font-family: 'Raleway', sans-serif;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 1.19;
+}
+.logo-studio {
+	color: #000000;
+	font-family: 'Raleway', sans-serif;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 1.19;
+}
+
+
+
+/* Site nav */
+
+
+.nav-link {
+	list-style: none;
+}
+
+.site-nav .link {
+	color: #212121;
+	font-family: 'Roboto';
+		font-style: none;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.02em;
+		text-decoration: none;
+}
+
+
+
+.site-nav .link:hover, .site-nav .link:focus {
+	color: #2196F3;
+	list-style: none;
+}
+
+.nav-list a {
+	color: #757575;
+}
+
+.nav-list .link:hover,
+.site-nav .link:focus {
+	color: #2196F3;
+}
+.section-title {
+	color: var(--title-text-color);
+
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+}
+
+.hero-title {
+	color: var(--secondary-text-color);
+
+font-style: normal;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	/* or 136% */
+
+	text-align: center;
+
+}
+
+.button {
+	color: var(--primary-background-color);
+background-color: var(--active-button-background-color);
+
+font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	text-decoration: none;
+
+}
+
+.feature-list .text {
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	/* or 171% */
+
+}
+
+.footer {
+background-color: var(--footer-hero-background-color);
+}
+
+.footer .logo {
+	color: var(--secondary-text-color)		
+		}
+	.footer .logo:hover,
+	.footer .logo:focus {
+		color: var(--hover-focus-color);
+	}
+	.address-contacts {
+		list-style: none;
+	}	
+	.maplink {
+		text-decoration: none;
+		font-size: var(--primary-font-size);
+		line-height: 1.71;
+		color: var(--secondary-text-color);
+	}
+	.footer .maplink:hover,
+	.footer .maplink:focus {
+		color: var(--hover-focus-color);
+	}
+	
+
+.maplink {
+	display: block;
+	text-decoration: none;
+	font-size: var(--primary-front-size-color);
+	line-height: 1.71;
+	color: var(--secondary-text-color);
+}
+.footer .maplink:hover,
+.footer .maplink:focus {
+	color: var(--hover-focus-color);
+}
+
+.footer .contactlink {
+font-weight: 400;
+font-size: var(--primary-font-size);
+line-height: 1.71;
+color: var(--link-text-color);
+}
+
+.footer .contactlink: hover,
+.footer .contactlink: focus {
+	color: var(--hover-focus-color);
+}
+
+
+
+
+
+
+
